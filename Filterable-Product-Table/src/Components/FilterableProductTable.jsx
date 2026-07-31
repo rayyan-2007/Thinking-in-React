@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 import ProductCategoryRow from './ProductCategoryRow';
+import "../App.css";
 
 //receive all products data from the app then destructure
 const FilterableProductTable = ({products}) => {

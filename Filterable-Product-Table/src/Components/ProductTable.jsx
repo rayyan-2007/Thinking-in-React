@@ -57,8 +57,8 @@ const ProductTable = ({products ,filterText, inStocked }) => {
     //show table heading in the webpage
     //show table row products data in the webpage dynamically based on Usestate() and conditional redering and conditions
     <>
-      <table>
-        <thead>
+      <table className='product-parent'>
+        <thead className='category-head'>
           <tr>
             <td>Name</td>
             <td>Price</td>

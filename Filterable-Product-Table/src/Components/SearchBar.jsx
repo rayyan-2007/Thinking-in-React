@@ -9,7 +9,7 @@ const SearchBar = ({
   return (
     <>
       <form>
-        <div>
+        <div className='search-parent'> 
           <input
             //if user starts entering the text in input field state will change dynamically based on the state filter the products items then show on the webpage
             onChange={(event) => {
@@ -21,7 +21,7 @@ const SearchBar = ({
             placeholder="Searh Products..."
           />
         </div>
-        <div>
+        <div className='checkbox-parent'>
           <label>
             <input
               //if user click the checkbox field the state will change dynamically based on the state filter the products items then show on the webpage
