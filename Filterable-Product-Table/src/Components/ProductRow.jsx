@@ -15,7 +15,7 @@ const ProductRow = ({product}) => {
   return (
     //return the product name and price in table row and inside table data dynamically based on the state and condition
      <>
-      <tr>
+      <tr className='product-row'>
         <td>{Product}</td>
         <td>{product.price}</td>
       </tr>
